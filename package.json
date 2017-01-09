@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "NODE_PATH=./ node ./bin/www",
-    "test": "NODE_PATH=./ jasmine"
+    "test": "NODE_PATH=./ jasmine --use_strict"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
